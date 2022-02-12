@@ -30,3 +30,15 @@ let sayBye=function(){
 console.log("line 30\n :"+sayBye);
 sayBye();
 console.log(sayBye);
+
+// 3 IIFE --> imediately invoked function expression
+//type 2 + immediate calling
+function add(a,b){
+    return a+b;
+}
+
+add(2,3);
+
+let additionIIFE=(function (a,b){
+ console.log("line 43 :"+(a+b));
+})(20,30);
