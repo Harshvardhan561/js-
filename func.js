@@ -22,3 +22,11 @@ let sayHi=function(){
 console.log("line 22\n :"+sayHi);
 sayHi();
 console.log(sayHi);
+
+let sayBye=function(){
+    console.log("Bye")
+
+}
+console.log("line 30\n :"+sayBye);
+sayBye();
+console.log(sayBye);
